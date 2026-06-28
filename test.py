@@ -8,7 +8,7 @@ llm_cohere = ChatOpenRouter(
     api_key=settings.OPENROUTER_API_KEY)
 
 llm_google = ChatGoogleGenerativeAI(
-    model='gemini-2.5-flash',
+    model='gemini-2.5-flash',          #gm.nn.Gemma3_4B   other google model
     api_key=settings.GOOGLE_API_KEY
 ) 
 
